@@ -77,6 +77,11 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
+.body-title{
+  text-align: center;
+  padding-bottom:30px;
+}
+
 .experience {
   text-align: center;
   background: url('images/skills.jpg') no-repeat top center;
