@@ -125,6 +125,11 @@ header .profile-image:hover {
   border-color:#ff9904
 }
 
+.company-logo{
+  width:250px;
+  height:100px;
+}
+
 ul.skills {
   padding: 0;
   text-align: center;
