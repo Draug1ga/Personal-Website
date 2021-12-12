@@ -76,6 +76,14 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
+.experience {
+  text-align: center;
+  background: url('images/skills.jpg') no-repeat top center;
+  Background-size: cover;
+  overflow: hidden;
+  padding-top:60px;
+}
 .tag {
   background-color: #efefef;
   color: black;
@@ -88,7 +96,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.card-index {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -98,8 +106,23 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
-  border-color: #ff99ff;
+.card-index:hover {
+  border-color:blueviolet;
+}
+
+.card-experience{
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+.card-experience:hover{
+  border-color:#ff9904
 }
 
 ul.skills {
